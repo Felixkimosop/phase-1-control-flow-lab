@@ -21,15 +21,19 @@ function scuberGreetingForFeet(distance){
   
 }
 
-const city = "NYC"
+
 
 function ternaryCheckCity(city){
 
   // Write your code here!
 
- let checkCity = city? ('Ok, sounds good.') : ('No go.');
+ 
 
- return checkCity;
+ return (city ==="NYC" ?  ("Ok, sounds good.") : ('No go.'));
+
+ 
+
+  
 
  
 
